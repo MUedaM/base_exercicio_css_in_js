@@ -1,4 +1,4 @@
-import Header from './components/Cabecalho/index'
+import Cabecalho from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <ThemeProvider theme={colors}>
       <GlobalStyle />
-      <Header />
+      <Cabecalho />
       <Hero />
       <Container>
         <ListaVagas />

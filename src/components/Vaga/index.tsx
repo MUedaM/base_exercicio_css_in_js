@@ -10,7 +10,7 @@ type Props = {
   requisitos: string[]
 }
 
-const vagas = (props: Props) => (
+const Vagas = (props: Props) => (
   <Card>
     <CardTitulo>{props.titulo}</CardTitulo>
     <ul>
@@ -26,4 +26,4 @@ const vagas = (props: Props) => (
   </Card>
 )
 
-export default vagas
+export default Vagas
